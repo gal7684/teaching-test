@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('test') {
+        stage('test/test_add.py') {
             steps {
                 sh 'python -m pytest'
             }
